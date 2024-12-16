@@ -2,18 +2,26 @@ import "./style.css";
 import { people } from "./people.js";
 import { DOMSelectors } from "./DOM.js";
 
+let index = 0;
+
+Displaypeople(people);
+
 function Displaypeople(people) {
-  DOMSelectors.container.insertAdjacentHTML(
+  let person = people[index];
+  DOMSelectors.container2.insertAdjacentHTML(
     "beforeend",
-    `
+    ` 
       <div class="card">
         <h2>${person.name}</h2>
         <h4>${person.age}, ${person.race}</h4>
         <h4>${person.gender} | exes: ${person.exes}</h4>
         <img class="imagesize" src="${person.image}" alt="e" />
+         <button class="Ilikebutton">Dylan goons</button>
+          <button class="Inolikebutton">Dylan dosent goon</button>
       </div>
     `
   );
+  index++;
 }
 
 function ILikey() {
@@ -30,11 +38,12 @@ function ILikey() {
         </div>
       `
     );
-})
+  });
 }
 
-function INoLikey() {
-  Ilikebutton.addEventListener("click", (event) => {
+function INoLikey(name) {
+  Inolikebutton.addEventListener("click", (event) => {
     event.preventDefault();
-    //Make something to remove the card from the array pool
+    cardArray = cardArray.filter((item) => item.name !== name);
+  });
 }

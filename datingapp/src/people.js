@@ -104,7 +104,7 @@ let people = [
     image: "images/Serena.jpg",
   },
   {
-    name: "Not Dylan Jiang",
+    name: "Dylan Jiang",
     age: 15,
     gender: "Male",
     race: "Asian",
