@@ -44,7 +44,7 @@ function Displaypeople(people) {
   <figure>
     <img
       src="${person.image}"
-      alt="Shoes" />
+      alt="person" />
   </figure>
   <div class="card-body">
     <h2 class="card-title">${person.name}</h2>

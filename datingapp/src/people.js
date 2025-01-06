@@ -117,7 +117,7 @@ let people = [
     gender: "Male",
     race: "Black",
     exes: 678,
-    image: "images/Tyrone.jpeg",
+    image: "images/tyrone.jpg",
   },
   {
     name: "Jaquavius",
@@ -125,7 +125,7 @@ let people = [
     gender: "Male",
     race: "Black",
     exes: 6,
-    image: "images/Jaquavius.jpeg",
+    image: "images/jaquavius.jpg",
   },
   {
     name: "Tiana",
@@ -133,7 +133,7 @@ let people = [
     gender: "Female",
     race: "Black",
     exes: 8,
-    image: "images/Tiana.jpeg",
+    image: "images/tiana.jpg",
   },
   {
     name: "Chanel",
@@ -141,7 +141,7 @@ let people = [
     gender: "Female",
     race: "Black",
     exes: 2,
-    image: "images/Chanel.jpeg",
+    image: "images/chanel.jpg",
   },
   {
     name: "Hombre",
@@ -149,7 +149,7 @@ let people = [
     gender: "Male",
     race: "Latina",
     exes: 75,
-    image: "images/Hombre.jpeg",
+    image: "images/hombre.jpg",
   },
   {
     name: "Maria",
@@ -157,7 +157,7 @@ let people = [
     gender: "Female",
     race: "Latina",
     exes: 5,
-    image: "images/Maria.jpeg",
+    image: "images/maria.jpg",
   },
   {
     name: "Camila",
@@ -165,7 +165,7 @@ let people = [
     gender: "Female",
     race: "Latina",
     exes: 2,
-    image: "images/Camila.jpeg",
+    image: "images/camila.jpg",
   },
   {
     name: "Gloria",
@@ -173,7 +173,7 @@ let people = [
     gender: "Female",
     race: "White",
     exes: 5,
-    image: "images/Gloria.jpeg",
+    image: "images/gloria.jpg",
   },
   {
     name: "Gorlock The Destroyer",
@@ -181,7 +181,15 @@ let people = [
     gender: "Female",
     race: "Latina",
     exes: 842,
-    image: "images/Gorlock.jpeg",
+    image: "images/gorlock.jpg",
+  },
+  {
+    name: "Mohammed",
+    age: 53,
+    gender: "Male",
+    race: "Middle-Eastern",
+    exes: 842,
+    image: "images/mohammed.jpg",
   },
 ];
 export { people };
