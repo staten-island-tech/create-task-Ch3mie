@@ -6,6 +6,8 @@ let index = 0;
 Displaypeople(people);
 let matches = [];
 
+people.sort(() => 0.5 - Math.random());
+
 function Displaypeople(people) {
   console.log(index);
   let person = people[index];
@@ -25,10 +27,11 @@ function Displaypeople(people) {
   </figure>
   <div class="card-body">
     <h2 class="card-title">${person.name}</h2>
-    <p>${person.race}</p>
-    <p>${person.gender}</p>
-    <p>${person.age}</p>
-    <p>${person.exes}</p>
+    <p>Race: ${person.race}</p>
+    <p>gender: ${person.gender}</p>
+    <p>Age: ${person.age}</p>
+    <p>Exes: ${person.exes}</p>
+    <p>"${person.catchphrase}"</p>
   </div>
 </div>
     `
@@ -41,23 +44,24 @@ function Displaypeople(people) {
       "beforeend",
       ` 
     <div class="card bg-base-100 w-96 shadow-xl">
-  <figure>
-    <img
-      src="${person.image}"
-      alt="person" />
-  </figure>
-  <div class="card-body">
-    <h2 class="card-title">${person.name}</h2>
-    <p>${person.race}</p>
-    <p>${person.gender}</p>
-    <p>${person.age}</p>
-    <p>${person.exes}</p>
-    <div class="card-actions justify-end">
-    <button class="NoLikebutton btn btn-primary">No like</button>
-      <button class="Likebutton btn btn-primary">Like</button>
+    <figure>
+      <img
+        src="${person.image}"
+        alt="person" />
+    </figure>
+    <div class="card-body">
+      <h2 class="card-title">${person.name}</h2>
+      <p>Race: ${person.race}</p>
+      <p>Gender: ${person.gender}</p>
+      <p>Age: ${person.age}</p>
+      <p>Exes: ${person.exes}</p>
+      <p>"${person.catchphrase}"</p>
+      <div class="card-actions justify-end">
+      <button class="NoLikebutton btn btn-primary">No like</button>
+        <button class="Likebutton btn btn-primary">Like</button>
+      </div>
     </div>
   </div>
-</div>
     `
     );
     ILikey(person);

@@ -6,6 +6,7 @@ let people = [
     race: "Asian",
     exes: 10,
     image: "images/David Luu.jpg",
+    catchphrase: "Swipe right, I might just take you out for pho!",
   },
   {
     name: "Travis Liu",
@@ -14,6 +15,8 @@ let people = [
     race: "Asian",
     exes: 23,
     image: "images/Travis Liu.jpg",
+    catchphrase:
+      "They call me Mr. Right... because I’m always swiped that way.",
   },
   {
     name: "Tiffiany",
@@ -22,6 +25,7 @@ let people = [
     race: "Asian",
     exes: 15,
     image: "images/Tiffiany.jpg",
+    catchphrase: "I promise I’m more fun than your ex’s Netflix account!",
   },
   {
     name: "Travis Tam",
@@ -30,6 +34,7 @@ let people = [
     race: "Asian",
     exes: 7,
     image: "images/Travis Tam.jpg",
+    catchphrase: "I’m not like your last swipe, I’m better!",
   },
   {
     name: "Erica",
@@ -38,6 +43,7 @@ let people = [
     race: "Asian",
     exes: 9,
     image: "images/Erica.jpg",
+    catchphrase: "Let’s make our first date so good, your ex gets jealous.",
   },
   {
     name: "Terrance",
@@ -46,6 +52,7 @@ let people = [
     race: "Asian",
     exes: 5,
     image: "images/Terrance Wong.jpg",
+    catchphrase: "Warning: I’ll like your dog more than you!",
   },
   {
     name: "Kevin Ngyuen",
@@ -54,6 +61,7 @@ let people = [
     race: "Asian",
     exes: 12,
     image: "images/Kevin Ngyuen.jpg",
+    catchphrase: "Swipe right, and I’ll Venmo you for boba!",
   },
   {
     name: "Rerick",
@@ -62,6 +70,7 @@ let people = [
     race: "White",
     exes: 4,
     image: "images/Rerick.jpg",
+    catchphrase: "I’m the guy your ex told you not to worry about.",
   },
   {
     name: "Aang",
@@ -70,6 +79,7 @@ let people = [
     race: "Asian",
     exes: 923,
     image: "images/Aang.jpg",
+    catchphrase: "I’ll sweep you off your feet faster than Appa!",
   },
   {
     name: "Eric Ou",
@@ -78,6 +88,7 @@ let people = [
     race: "Asian",
     exes: 11,
     image: "images/Eric Ou.jpg",
+    catchphrase: "I’m the OU-tlier you’ve been looking for.",
   },
   {
     name: "Henry Lin",
@@ -86,6 +97,7 @@ let people = [
     race: "Asian",
     exes: 6,
     image: "images/Henry Lin.jpg",
+    catchphrase: "I’m here for a good time, not a long text thread.",
   },
   {
     name: "Jennifer",
@@ -94,6 +106,7 @@ let people = [
     race: "Asian",
     exes: 3,
     image: "images/Jennifer.jpg",
+    catchphrase: "Texting me back isn’t hard. Dating me is even easier.",
   },
   {
     name: "Serena",
@@ -102,6 +115,7 @@ let people = [
     race: "Asian",
     exes: 18,
     image: "images/Serena.jpg",
+    catchphrase: "I’m the main character in this love story.",
   },
   {
     name: "Dylan Jiang",
@@ -110,6 +124,7 @@ let people = [
     race: "Asian",
     exes: -2,
     image: "images/Dylan.jpeg",
+    catchphrase: "My eyes may be small, but my heart is big for you.",
   },
   {
     name: "Tyrone",
@@ -118,6 +133,7 @@ let people = [
     race: "Black",
     exes: 678,
     image: "images/tyrone.jpg",
+    catchphrase: "678 exes, but I’m looking for that one.",
   },
   {
     name: "Jaquavius",
@@ -126,6 +142,7 @@ let people = [
     race: "Black",
     exes: 6,
     image: "images/jaquavius.jpg",
+    catchphrase: "I might just be your next favorite mistake.",
   },
   {
     name: "Tiana",
@@ -133,7 +150,8 @@ let people = [
     gender: "Female",
     race: "Black",
     exes: 8,
-    image: "images/tiana.jpg",
+    image: "images/tiana.jfif",
+    catchphrase: "Swipe right if you’re ready to meet royalty.",
   },
   {
     name: "Chanel",
@@ -141,7 +159,8 @@ let people = [
     gender: "Female",
     race: "Black",
     exes: 2,
-    image: "images/chanel.jpg",
+    image: "images/chanel.jfif",
+    catchphrase: "I’m expensive, but my love is priceless.",
   },
   {
     name: "Hombre",
@@ -150,6 +169,7 @@ let people = [
     race: "Latina",
     exes: 75,
     image: "images/hombre.jpg",
+    catchphrase: "They call me 'El Hombre,' but you can call me yours.",
   },
   {
     name: "Maria",
@@ -157,7 +177,8 @@ let people = [
     gender: "Female",
     race: "Latina",
     exes: 5,
-    image: "images/maria.jpg",
+    image: "images/maria.jfif",
+    catchphrase: "Let’s salsa into each other’s hearts.",
   },
   {
     name: "Camila",
@@ -166,6 +187,7 @@ let people = [
     race: "Latina",
     exes: 2,
     image: "images/camila.jpg",
+    catchphrase: "You bring the tacos, I’ll bring the spice.",
   },
   {
     name: "Gloria",
@@ -174,6 +196,7 @@ let people = [
     race: "White",
     exes: 5,
     image: "images/gloria.jpg",
+    catchphrase: "I’m older, wiser, and ready for love.",
   },
   {
     name: "Gorlock The Destroyer",
@@ -182,14 +205,16 @@ let people = [
     race: "Latina",
     exes: 842,
     image: "images/gorlock.jpg",
+    catchphrase: "Don’t let the name scare you. Let’s conquer love together.",
   },
   {
     name: "Mohammed",
     age: 53,
     gender: "Male",
     race: "Middle-Eastern",
-    exes: 842,
-    image: "images/mohammed.jpg",
+    exes: 2,
+    image: "images/mohammed.jfif",
+    catchphrase: "Ima blow my way into your heart.",
   },
 ];
 export { people };
