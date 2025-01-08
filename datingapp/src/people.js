@@ -205,7 +205,7 @@ let people = [
     race: "Latina",
     exes: 842,
     image: "images/gorlock.jpg",
-    catchphrase: "Don’t let the name scare you. Let’s conquer love together.",
+    catchphrase: "Big heart, bigger love—are you ready to handle it?",
   },
   {
     name: "Mohammed",
