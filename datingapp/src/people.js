@@ -1,14 +1,5 @@
 let people = [
   {
-    name: "David Luu",
-    age: 25,
-    gender: "Male",
-    race: "Asian",
-    exes: 10,
-    image: "images/David Luu.jpg",
-    catchphrase: "Swipe right, I might just take you out for pho!",
-  },
-  {
     name: "Travis Liu",
     age: 22,
     gender: "Male",
@@ -63,15 +54,7 @@ let people = [
     image: "images/Kevin Ngyuen.jpg",
     catchphrase: "Swipe right, and I’ll Venmo you for boba!",
   },
-  {
-    name: "Rerick",
-    age: 26,
-    gender: "Male",
-    race: "White",
-    exes: 4,
-    image: "images/Rerick.jpg",
-    catchphrase: "I’m the guy your ex told you not to worry about.",
-  },
+
   {
     name: "Aang",
     age: 12,
@@ -155,7 +138,7 @@ let people = [
   },
   {
     name: "Chanel",
-    age: 20,
+    age: 30,
     gender: "Female",
     race: "Black",
     exes: 2,
