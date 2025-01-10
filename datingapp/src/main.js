@@ -2,7 +2,6 @@ import "./style.css";
 import { people } from "./people.js";
 import { DOMSelectors } from "./DOM.js";
 
-// Create a shuffled copy of the people array
 let shuffledPeople = [...people].sort(() => 0.5 - Math.random());
 
 let index = 0;
