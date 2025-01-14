@@ -27,6 +27,7 @@ function Displaypeople(peopleArray) {
             src="${person.image}"
             alt="person"
             class="object-contain w-full h-full"
+            .
           />
         </figure>
         <div class="card-body flex-1 flex flex-col justify-between">

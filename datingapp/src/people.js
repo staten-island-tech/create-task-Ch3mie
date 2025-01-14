@@ -54,7 +54,6 @@ let people = [
     image: "images/Kevin Ngyuen.jpg",
     catchphrase: "Swipe right, and I’ll Venmo you for boba!",
   },
-
   {
     name: "Aang",
     age: 12,
